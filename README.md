@@ -1,62 +1,116 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/thecodechaser-blueviolet)
 
-# Project Name
+# Hello Rails React App
 
-> Description the project.
+> Hello Rails React app is simple application that contains setup of rails and react in one application. The greeting page loads a random greeting from database on every page load.
 
+## Preview
+
+### Home Page
+
+![screenshot](./app/assets/images/home.png)
+
+### Greeting Page
+
+![screenshot](./app/assets/images/greeting.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Major languages (Ruby)
+- Framworks (Ruby on Rails)
+- Javascript (ReactJS)
+- Markup (HTML)
+- Styles (CSS, Tailwind)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- A text editor(preferably Visual Studio Code)
+
+### Install
+- Ruby
+- Ruby on Rails
+- PostgresSQL
+- Node
+
+### Using it Locally
+
+- Clone the project
+
+```
+git clone git@github.com:thecodechaser/hello-rails-react.git
+
+cd hello-rails-react
+
+```
 
 ### Setup
 
-### Install
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+Install dependencies
+
+```
+npm i 
+or
+npm install
+```
 
 ### Usage
 
-### Run tests
+Start server with:
 
-### Deployment
+```
+rails server
+```
 
+Visit http://localhost:3000/ in your browser.
+
+### Open API documentation
+
+```
+Coming soon!
+```
+
+
+## Visit And Open Files
+
+[Visit Repo](https://github.com/KayLemba/hello-world-rails-react)
+
+## Download Repo
+
+[Download Repo](https://github.com/KayLemba/hello-world-rails-react)
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Kalolo Chola Lemba**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@KayLemba](https://github.com/KayLemba)
+- Twitter: [@King-Kaylo1](https://twitter.com/King_Kaylo1) 
+- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/KayLemba/hello-world-rails-react/issues).
 
 ## Show your support
 
@@ -64,10 +118,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration: Microverse
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
