@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/thecodechaser-blueviolet)
+![](https://img.shields.io/badge/KayLemba-blueviolet)
 
 # Hello Rails React App
 
